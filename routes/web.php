@@ -30,3 +30,5 @@ Route::resource('animelists', App\Http\Controllers\AnimelistsController::class);
 
 
 Route::resource('animecharacters', App\Http\Controllers\AnimecharactersController::class);
+
+Route::resource('logs', App\Http\Controllers\LogsController::class);
